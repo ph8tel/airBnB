@@ -9,9 +9,12 @@
   "author": "ph8tel",
   "license": "MIT",
   "dependencies": {
+    "-": "0.0.1",
     "bootstrap": "^3.4.1",
     "express": "^4.17.1",
+    "g": "^2.0.1",
     "jquery": "^3.5.1",
-    "mongodb": "^3.6.2"
+    "mongodb": "^3.6.2",
+    "npm": "^6.14.8"
   }
 }
