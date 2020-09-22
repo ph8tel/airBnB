@@ -1,0 +1,10 @@
+<div class="container">
+    <% listings.forEach(function(listing) { %>
+            <div class="col-md-4">
+            <img src="<%= listing.images.picture_url %>" width="30%" />
+            <strong><%= listing.name %></strong>
+                <p><%= listing.summary %></p>
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div>
+    <% }); %>
+</div>
